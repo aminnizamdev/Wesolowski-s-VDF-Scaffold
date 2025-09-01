@@ -1,0 +1,12 @@
+[package]
+name = "wesolowski_vdf"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+sha2 = "0.10"
+clap = { version = "4.0", features = ["derive"] }
+hex = "0.4"
+num-bigint = "0.4"
+num-traits = "0.2"
+once_cell = "1.19"
